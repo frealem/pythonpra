@@ -15,3 +15,13 @@ values=(10,20,30,40,50,60,70,80,90,100)
 print(values[0:8])                #(10, 20, 30, 40, 50, 60, 70, 80)
 print(values[0:8:2])              #(10, 30, 50, 70)
 print(values[0:])                     #from index 0 to the end the blank default end
+
+#================unpacking tuples=========
+
+userInfo=("jhon",34,"artist")
+(name,age,job)=userInfo
+print("Name:",name)
+print("Age:",age)
+print("job:",job)
+
+
